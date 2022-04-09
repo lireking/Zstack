@@ -11,6 +11,8 @@
 		304FCF1427DA176D007A249E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF1327DA176D007A249E /* ContentView.swift */; };
 		304FCF1627DA176E007A249E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304FCF1527DA176E007A249E /* Assets.xcassets */; };
 		304FCF1927DA176E007A249E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304FCF1827DA176E007A249E /* Preview Assets.xcassets */; };
+		304FCF2227DA5335007A249E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF2127DA5335007A249E /* CircleImage.swift */; };
+		304FCF2427DA53D1007A249E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304FCF2327DA53D1007A249E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		304FCF1327DA176D007A249E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		304FCF1527DA176E007A249E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		304FCF1827DA176E007A249E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		304FCF2127DA5335007A249E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		304FCF2327DA53D1007A249E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				304FCF1127DA176D007A249E /* ZstackApp.swift */,
 				304FCF1327DA176D007A249E /* ContentView.swift */,
 				304FCF1527DA176E007A249E /* Assets.xcassets */,
+				304FCF2127DA5335007A249E /* CircleImage.swift */,
+				304FCF2327DA53D1007A249E /* MapView.swift */,
 				304FCF1727DA176E007A249E /* Preview Content */,
 			);
 			path = Zstack;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				304FCF1427DA176D007A249E /* ContentView.swift in Sources */,
+				304FCF2427DA53D1007A249E /* MapView.swift in Sources */,
 				304FCF1227DA176D007A249E /* ZstackApp.swift in Sources */,
+				304FCF2227DA5335007A249E /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
